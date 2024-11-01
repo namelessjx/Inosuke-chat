@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JX CHAT</title>
+  <link rel="stylesheet" href="1.css">
+</head>
+<body>
+  <div id="chat-container">
+    <div id="header">
+      <img src="9.png" alt="Profile" id="profile-pic">
+      <h2>JX CHAT</h2>
+    </div>
+    <div id="chat-box"></div>
+    <div id="input-container">
+      <form onsubmit="sendMessage(); return false;">
+        <input type="text" id="message-input" placeholder="Type your message..." required>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
